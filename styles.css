@@ -1,0 +1,113 @@
+:root {
+    --color-de-acento: #5f3aa3 ;
+    --color-de-titulos: #f0d98e;
+    --color-de-fondo: #afa5e0 ;
+    --color-de-subfondos: #ffffff;
+    --color-de-fondo2: #CCA5E0;
+}
+
+body{
+    background-image: url(plush-spin.gif);
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: rgba(158, 116, 175, 0.5);
+    background-blend-mode: multiply;
+}
+
+h1{
+    color: var(--color-de-titulos);
+    text-align: center;
+    font-family: 'Mogra';
+    font-size: 5rem;
+}
+
+main{
+    background-color: var(--color-de-fondo);
+    border-radius: 10px;
+    font-family: 'Mogra';
+    font-size: 20px;
+    color: var(--color-de-acento);
+    text-align: center;
+    border: 5px dashed var(--color-de-subfondos); 
+    padding: 20px;
+    border-radius: 12px;
+
+}
+
+.imagenprincipal{
+    text-align: center;
+}
+#FotoKiki{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    justify-content: center;
+    background-image: url(pokemon-kieran.gif);
+    background-size: cover;
+    background-position: center
+}
+
+aside{
+    text-align: right;
+    color: var(--color-de-acento);
+    font-family: 'Mogra';
+    background-color: var(--color-de-fondo);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.galeria img{
+    margin: 5px;
+    border: 15px solid var(--color-de-acento);
+}
+
+p{
+    color: var(--color-de-acento);
+    font-size: 15px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color-de-fondo2);
+}
+
+#descripcion{
+    border: 5px dashed var(--color-de-subfondos);
+}
+
+.contenedor {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.mis-hobbies,
+.musica {
+   background-color: var(--color-de-fondo);
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-de-acento);
+    font-size: 20px;
+    display: inline-block; 
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.mis-hobbies ul{
+list-style-type: square;
+}
+
+.jose-jose{
+   width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+}
+
+a{
+    color: #f0d98e;
+    font-family: 'Mogra';
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    border: 5px dashed var(--color-de-subfondos);
+}
